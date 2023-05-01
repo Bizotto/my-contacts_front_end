@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "react/jsx-one-expression-per-line":"off",
+      "comma-dangle": ["error", "only-multiline"],
+      "react/jsx-filename-extension" :
+      [1, {"extensions": [".js", ".jsx"]}
+    ],
+    "react/react-in-jsx-scope":"off",
+    "import/prefer-default-export":"off",
+    "object-curly-newline":"off"
+    }
+}
