@@ -18,6 +18,7 @@ export const ContactCard = styled.div`
 `;
 
 export const Button = styled.a`
+  margin-left: 4px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -29,9 +30,14 @@ export const Button = styled.a`
   width: 90px;
   height: 21px;
   border-radius: 3px;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background: ${({ theme }) => theme.colors.primary.main};
+    color: #fff;
+  }
 `;
 
 export const HeaderCard = styled.div`
   display: flex;
-  justify-content: space-between;
 `;

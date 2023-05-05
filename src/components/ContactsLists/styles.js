@@ -4,6 +4,29 @@ export const Container = styled.div`
   margin-top: 32px;
 `;
 
+export const InputContainer = styled.div`
+  margin-top: 55px;
+  margin-bottom: 40px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+
+  input {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    outline: 0;
+    padding: 0 16px;
+
+    &::placeholder {
+      color: #bcbcbc;
+    }
+  }
+`;
+
 export const Header = styled.header`
   strong {
     color: #222;
@@ -29,6 +52,12 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`;
+
+export const HeaderContainer = styled.header`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export const ListContainer = styled.div`
