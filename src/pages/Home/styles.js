@@ -54,12 +54,6 @@ export const Header = styled.header`
   justify-content: space-between;
 `;
 
-export const HeaderContainer = styled.header`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-`;
-
 export const ListContainer = styled.div`
   margin-top: 24px;
 

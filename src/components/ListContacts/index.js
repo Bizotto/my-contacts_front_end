@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { Button, ContactCard, Container, HeaderCard } from './styles';
 import edit from '../../assets/images/edit.svg';
 import trash from '../../assets/images/trash.svg';
@@ -18,9 +19,9 @@ export default function ListContacts() {
           <text style={{ color: '#BCBCBC' }}>{id.celular}</text>
         </ContactCard>
         <div>
-          <a href="/">
+          <Link to="/edit:123">
             <img src={edit} alt="Edit" />
-          </a>
+          </Link>
           <a href="/">
             <img src={trash} alt="trash" />
           </a>
