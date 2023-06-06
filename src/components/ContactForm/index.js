@@ -3,7 +3,7 @@ import { Button } from '../Button';
 import { FormGroup } from '../FormGroup';
 import { Input } from '../Input';
 import { Select } from '../Select';
-import { Form } from './styles';
+import { Form, ButtonContainer } from './styles';
 
 export function ContactForm({ buttonLabel }) {
   return (
@@ -27,9 +27,11 @@ export function ContactForm({ buttonLabel }) {
           <option value="opcao3">Opção 3</option>
         </Select>
       </FormGroup>
-      <Button type="submit" onClick={() => {}}>
-        {buttonLabel}
-      </Button>
+      <ButtonContainer>
+        <Button type="submit" onClick={() => {}}>
+          {buttonLabel}
+        </Button>
+      </ButtonContainer>
     </Form>
   );
 }

@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-export const Form = styled.form`
-  padding-top: 10px;
-  align-items: center;
+export const Form = styled.form``;
+
+export const ButtonContainer = styled.div`
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+
+  button {
+    width: 96%;
+  }
 `;

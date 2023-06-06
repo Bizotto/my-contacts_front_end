@@ -1,16 +1,17 @@
 import { PropTypes } from 'prop-types';
-import { Header, Img } from './styles';
+import { Link } from 'react-router-dom';
+import { Container, Img } from './styles';
 import arrow from '../../assets/images/arrow.svg';
 
 export default function PageHeader({ title }) {
   return (
-    <Header>
-      <button type="button" className="sort-button">
+    <Container>
+      <Link to="/">
         <Img src={arrow} alt="Arrow" />
         <span>Voltar</span>
-      </button>
+      </Link>
       <strong>{title}</strong>
-    </Header>
+    </Container>
   );
 }
 

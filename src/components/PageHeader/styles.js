@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
-export const Header = styled.header`
+export const Container = styled.header`
   margin-top: 55px;
   margin-bottom: 24px;
-  .sort-button {
+
+  a {
     background: transparent;
     border: none;
     align-items: center;
     display: flex;
-    margin-top: 8px;
-    margin-bottom: 24px;
+    text-decoration: none;
   }
 
   span {

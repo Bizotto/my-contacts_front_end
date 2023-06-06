@@ -9,6 +9,7 @@ import {
 } from './styles';
 import arrow from '../../assets/images/arrow.svg';
 import { mock } from '../../utils/mockContacts';
+import { Modal } from '../../components/Modal';
 
 export default function Home() {
   const numberContacts = mock.length;
@@ -23,6 +24,7 @@ export default function Home() {
         <Link to="/new">Novo contato</Link>
       </Header>
       <Line />
+      <Modal danger />
       <ListContainer>
         <header>
           <button type="button" className="sort-button">

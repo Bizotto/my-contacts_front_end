@@ -41,4 +41,22 @@ export const mock = [
     email: 'jolelitoamaral@gmail.com',
     celular: '(48) 99999-9999',
   },
+  {
+    id: 8,
+    name: 'Joselito',
+    email: 'jolelitoamaral@gmail.com',
+    celular: '(48) 99999-9999',
+  },
+  {
+    id: 9,
+    name: 'Joselito',
+    email: 'jolelitoamaral@gmail.com',
+    celular: '(48) 99999-9999',
+  },
+  {
+    id: 10,
+    name: 'Joselito',
+    email: 'jolelitoamaral@gmail.com',
+    celular: '(48) 99999-9999',
+  },
 ];

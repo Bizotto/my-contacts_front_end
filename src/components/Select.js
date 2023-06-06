@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Select = styled.select`
   color: #bcbcbc;
   margin-bottom: 16px;
-  width: 81%;
+  width: 96%;
   border-radius: 4px;
   border: 2px solid #fff;
   height: 50px;

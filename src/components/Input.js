@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Input = styled.input`
   border: 2px solid #fff;
   margin-bottom: 16px;
-  width: 75%;
+  width: 90%;
   border-radius: 4px;
   border: none;
   height: 50px;
@@ -17,5 +17,9 @@ export const Input = styled.input`
   &:focus {
     border: 2px solid #5061fc;
     outline: none;
+  }
+
+  &::placeholder {
+    color: ${({ theme }) => theme.colors.gray.light};
   }
 `;
